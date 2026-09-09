@@ -43,7 +43,7 @@ Mis principales responsabilidades incluyeron:
 * JavaScript
 * HTML
 * CSS
-* Git y GitHub
+* GitHub
 
 ## 🔒 Privacidad
 
