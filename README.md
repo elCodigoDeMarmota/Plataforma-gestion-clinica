@@ -100,6 +100,17 @@ Desde la vista principal se accede a los módulos de gestión de pacientes, agen
   <img src="docs/screenshots/pantalla-principal.png" width="800" alt="Pantalla principal de la Plataforma de Gestión Clínica">
 </p>
 
+### 👤 Gestión de pacientes
+
+El módulo permite buscar pacientes mediante RUT y administrar su información desde una ficha centralizada. Los datos pueden ser consultados, editados y actualizados mediante formularios que incorporan distintos tipos de entrada, validaciones y reglas de negocio.
+
+Desde la misma interfaz es posible generar documentación clínica y administrativa en formato PDF utilizando la información registrada del paciente, incluyendo ingreso médico, recetas, órdenes de exámenes y órdenes de presupuesto.
+
+<p align="center">
+  <img src="docs/screenshots/patient-management1.png" width="49%" alt="Gestión y edición de información del paciente">
+  <img src="docs/screenshots/patient-management2.png" width="49%" alt="Emisión de receta, órdenes de exámenes y presupuesto">
+</p>
+
 
 ## ☁️ Tecnologías principales
 
