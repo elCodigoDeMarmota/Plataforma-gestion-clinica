@@ -1,6 +1,6 @@
 # 🏥 Plataforma de Gestión Clínica
 
-Plataforma web desarrollada para apoyar la gestión administrativa de una consulta médica, centralizando procesos relacionados con pacientes, agenda, documentación y seguimiento de atenciones.
+Plataforma web de gestión clínica desarrollada para una clienta real, integrada con servicios cloud de Microsoft 365 para centralizar la gestión de pacientes, agenda, documentación y procesos administrativos.
 
 Este proyecto fue desarrollado para una **clienta real**, a partir del levantamiento de sus necesidades y de los procesos utilizados diariamente en su consulta.
 
