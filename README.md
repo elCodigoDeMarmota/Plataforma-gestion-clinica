@@ -34,6 +34,11 @@ Mis principales responsabilidades incluyeron:
 
 ## ⚙️ Funcionalidades principales
 
+### 🔐 Autenticación y acceso
+- Inicio de sesión mediante Microsoft Entra ID.
+- Acceso restringido a usuarios autorizados.
+- Integración con Microsoft Graph para acceder a servicios de Microsoft 365.
+
 ### 👤 Gestión de pacientes
 - Búsqueda y consulta de pacientes mediante RUT.
 - Acceso centralizado a la información registrada del paciente.
