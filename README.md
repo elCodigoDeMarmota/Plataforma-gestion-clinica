@@ -81,7 +81,28 @@ Mis principales responsabilidades incluyeron:
 - Procesamiento automático de los envíos asociados a cada paciente.
 - Registro del **SID del mensaje** y de la **fecha de envío** para mantener trazabilidad del proceso y evitar envíos duplicados.
 
+  
+## 🖥️ Vista de la plataforma
+
+### 🔐 Inicio de sesión
+
+La plataforma utiliza Microsoft Entra ID para autenticar a los usuarios autorizados.
+
+<p align="center">
+  <img src="docs/screenshots/login.png" width="750" alt="Inicio de sesión mediante Microsoft Entra ID">
+</p>
+
+### 🏠 Pantalla principal
+
+Desde la vista principal se accede a los módulos de gestión de pacientes, agenda, exámenes y tareas pre/postoperatorias.
+
+<p align="center">
+  <img src="docs/screenshots/pantalla-principal.png" width="800" alt="Pantalla principal de la Plataforma de Gestión Clínica">
+</p>
+
+
 ## ☁️ Tecnologías principales
+
 
 * C#
 * ASP.NET Core
