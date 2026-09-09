@@ -32,6 +32,50 @@ Mis principales responsabilidades incluyeron:
 - Pruebas funcionales y resolución de incidencias.
 - Incorporación de mejoras a partir del uso real y feedback de las usuarias.
 
+## ⚙️ Funcionalidades principales
+
+### 👤 Gestión de pacientes
+- Búsqueda y consulta de pacientes mediante RUT.
+- Acceso centralizado a la información registrada del paciente.
+- Generación automática de documentos en formato PDF a partir de la información almacenada en la plataforma.
+- Emisión de ingreso médico, recetas médicas, órdenes de exámenes y órdenes de presupuesto.
+
+### 📅 Gestión de agenda
+- Búsqueda de pacientes mediante RUT y asociación de citas.
+- Agendamiento según tipo de atención, incluyendo controles y cirugías.
+- Selección de fecha y horario de atención.
+- Cálculo dinámico de disponibilidad, excluyendo automáticamente los horarios que ya se encuentran ocupados.
+- Aplicación de validaciones y reglas de negocio durante el proceso de agendamiento.
+- Creación automática de eventos en el calendario de la clienta mediante Microsoft Graph.
+- Visualización de las citas asociadas a cada paciente.
+- Confirmación y cancelación de citas desde la plataforma.
+- La información de agenda también es utilizada por procesos automatizados de comunicaciones pre y postoperatorias.
+
+### 🧪 Gestión de exámenes
+- Búsqueda de pacientes mediante RUT.
+- Visualización de los exámenes asociados al paciente.
+- Seguimiento del estado de revisión de cada examen.
+- Actualización del estado desde **No revisado** a **Revisado**.
+
+### ✅ Gestión de tareas Pre/Post operatorias
+- Búsqueda de pacientes mediante RUT.
+- Generación automática del **Consentimiento Informado** en formato PDF.
+- Consulta y validación de la cirugía agendada y confirmada del paciente para completar automáticamente la información requerida en el documento.
+- Generación automática de la **Escala de Caprini** como parte de la documentación preoperatoria.
+- Gestión y seguimiento de órdenes de presupuesto.
+- Registro de contactabilidad de pacientes.
+- Actualización del estado de las órdenes de presupuesto.
+- Visualización y filtrado de órdenes pendientes de gestión.
+- Exportación a Excel de órdenes en estado **No presupuestado** para facilitar su seguimiento y contactabilidad.
+
+### 🔄 Automatización de comunicaciones Pre/Post operatorias
+- Ejecución programada mediante workflows de **GitHub Actions**.
+- Acceso seguro a la información de agenda mediante autenticación por token.
+- Consulta de citas y cirugías para identificar pacientes que cumplen las condiciones de envío.
+- Aplicación de reglas de negocio para determinar cuándo corresponde ejecutar una comunicación pre o postoperatoria.
+- Procesamiento automático de los envíos asociados a cada paciente.
+- Registro del **SID del mensaje** y de la **fecha de envío** para mantener trazabilidad del proceso y evitar envíos duplicados.
+
 ## ☁️ Tecnologías principales
 
 * C#
