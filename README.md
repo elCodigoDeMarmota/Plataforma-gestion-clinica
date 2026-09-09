@@ -89,7 +89,7 @@ Mis principales responsabilidades incluyeron:
 La plataforma utiliza Microsoft Entra ID para autenticar a los usuarios autorizados.
 
 <p align="center">
-  <img src="docs/screenshots/login.png" width="750" alt="Inicio de sesión mediante Microsoft Entra ID">
+  <img src="docs/screenshots/login.png" width="520" alt="Inicio de sesión mediante Microsoft Entra ID">
 </p>
 
 ### 🏠 Pantalla principal
