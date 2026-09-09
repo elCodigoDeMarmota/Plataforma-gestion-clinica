@@ -107,8 +107,16 @@ El módulo permite buscar pacientes mediante RUT y administrar su información d
 Desde la misma interfaz es posible generar documentación clínica y administrativa en formato PDF utilizando la información registrada del paciente, incluyendo ingreso médico, recetas, órdenes de exámenes y órdenes de presupuesto.
 
 <p align="center">
-  <img src="docs/screenshots/patient-management1.png" width="49%" alt="Gestión y edición de información del paciente">
-  <img src="docs/screenshots/patient-management2.png" width="49%" alt="Emisión de receta, órdenes de exámenes y presupuesto">
+  <a href="docs/screenshots/patient-management1.png">
+    <img src="docs/screenshots/patient-management1.png" width="49%" alt="Gestión y edición de información del paciente">
+  </a>
+  <a href="docs/screenshots/patient-management2.png">
+    <img src="docs/screenshots/patient-management2.png" width="49%" alt="Emisión de receta, órdenes de exámenes y presupuesto">
+  </a>
+</p>
+
+<p align="center">
+  <em>Haz clic sobre las imágenes para verlas en tamaño completo.</em>
 </p>
 
 
